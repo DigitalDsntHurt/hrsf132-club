@@ -1,0 +1,28 @@
+.two{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.twotwo{
+  font-size: 900;
+  color: black;
+  margin-top: 8vh;
+  animation: blinker 22s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
